@@ -1,0 +1,111 @@
+body {
+  margin: 0 auto;
+}
+.maestro-nav__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 18%;
+  min-width: 240px;
+  height: 100%;
+  background: #f7f9fa;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: absolute;
+}
+
+.maestro-nav__panel {
+  position: absolute;
+  top: 0;
+  bottom: 80px;
+  padding: 40px 0 0 40px;
+}
+
+.maestro-nav__home-button {
+  border: none;
+  background: transparent;
+  color: #0070e0;
+  display: inline-block;
+  position: relative;
+  margin-left: -8px;
+  margin-bottom: 24px;
+  padding: 0 0 0 8px;
+  cursor: pointer;
+}
+.maestro-nav__logo {
+  width: 32px;
+  height: 32px;
+  fill: #0070e0;
+}
+.maestro-nav__contents {
+  overflow-y: auto;
+  position: absolute;
+  top: 96px;
+  bottom: 0;
+  width: 200px;
+}
+.maestro-nav__products {
+  list-style: none;
+  padding: 0;
+  margin: 0 40px 0 0;
+}
+.maestro-nav__product-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 40px;
+}
+.ue-effect-container {
+  position: relative;
+}
+
+.maestro-nav__product {
+  font-size: 16px;
+  line-height: 16px;
+  display: block;
+  -ms-flex: 1;
+  text-decoration: none;
+}
+a {
+  color: #2895f1;
+  text-decoration: none;
+}
+
+a * {
+  cursor: pointer;
+  outline: none;
+}
+.maestro-nav__product:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.maestro body,
+.maestro input,
+.maestro textarea,
+.maestro select,
+.maestro button,
+.maestro .normal {
+  font-family: AtlasGrotesk, sans-serif;
+}
+.maestro body,
+.maestro input,
+.maestro textarea,
+.maestro select,
+.maestro button,
+.maestro .normal {
+  font-family: AtlasGrotesk, sans-serif;
+  font-size: 14px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}

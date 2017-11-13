@@ -1,0 +1,111 @@
+.main-body-wrapper
+{
+    display: flex;
+    width: 82%;
+    top: 102px;
+    float: right;
+}
+
+.home-access-sections {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.home-file-section
+{
+    margin: 0;
+    padding: 0 11px 0 12px;
+    font-weight: 400;
+    line-height: 40px;
+    font-size: 12px;
+    color: #637282;
+    border-bottom: solid 1px #E6E8EB;}
+.star-button
+{background-color: transparent;}
+.home-access-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 0 24px 0;
+}
+.home-access-section__header {
+    padding-left: 0;
+    padding-right: 0;
+}
+.home-access-section__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 0 11px 0 12px;
+    font-weight: 400;
+    line-height: 40px;
+    font-size: 12px;
+    color: #637282;
+    border-bottom: solid 1px #E6E8EB;
+}
+.home-access-section__title {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    text-align: left;
+}
+.home-access-section__title-text {
+    display: inline-block;
+}
+.right-section-nav
+{width: 30%;}
+.ue-effect-container {
+    position: relative;
+    text-align: left;
+}
+.maestro-app-content {
+    position: relative;
+    z-index: 1;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    min-width: 420px;
+    margin-left: 40px;
+    width: 70%;
+}
+.maestro-app-content-activites {
+    z-index: 5;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    white-space: nowrap;
+    width: calc(100% - (200px + 2 * 40px));
+    min-width: 744px;
+    background: #fff;
+    padding: 0 0 0 40px;
+    height: 56px;
+}
+.modal-backdrop.in {
+    opacity: 0.5;
+}
+modal-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #e9ecef;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+.modalclose{
+    margin-right: -100px;
+}
+.input-share-with{
+    width:70%;
+    margin-right: 20px;
+}

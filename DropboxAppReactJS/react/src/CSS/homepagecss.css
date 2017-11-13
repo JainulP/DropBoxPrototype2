@@ -1,0 +1,194 @@
+.profile-sidebar {
+    padding: 30px 0 30px 0;
+    background: #fff;
+}
+.firstelement{
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #637282;
+}
+.list-group-item{
+    border-left: none;
+    border-right: none;
+    text-align: left;
+}
+.profile-userpic{
+    text-align: left;
+    padding-left: 40px;
+}
+.header{
+    text-align: left;
+    padding-left: 30px;
+    color: #0070e0;
+}
+.labelprofile{
+    text-align: left;
+    padding-left: 30px;
+    color: #000000;
+}
+.fileicon{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.btn-group{
+    text-align: right;
+}
+.btnshare{
+    padding: 0px!important;
+    margin-right: 10px!important;
+    margin-top: -5px;
+    border-radius: 5px!important;
+    background-color: transparent;
+    color: black;
+
+}
+.ion-share, .ion-android-star-outline, .ion-android-star, .ion-ios-trash, .ion-ios-cloud-download, .ion-ios-briefcase-outline, .ion-ios-folder-outline, .ion-eye, .ion-person{
+    color: #0070e0;
+    font-size: 25px;
+
+}
+.category{
+    margin-top: 35px;
+}
+
+.ion-ios-folder{
+    color: #0070e0;
+    font-size: 25px;
+    margin-right: 15px;
+}
+.ion-ios-people{
+    color: #0070e0;
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+.groupname{
+    color: #0070e0;
+    font-weight:bold;
+}
+.ion-document-text
+{
+    color: #0070e0;
+    font-size: 25px;
+    margin-right: 15px;
+
+}
+
+.listContent{
+    margin-top: -18px !important;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.uploadBtn{
+    width: 100%;
+    text-align: center;
+    line-height: 32px;
+    padding: 0 16px;
+    font-weight: 500;
+    border: none;
+    color: #fff;
+    background-color: #0070e0;
+    font-family: 'AtlasGrotesk', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.rightPane{
+    color: #0070e0;
+    margin-left: 15px;
+    font-family: AtlasGrotesk,sans-serif;
+    vertical-align: super;
+    font-weight: bold;
+}
+
+.rightPaneUploadfile{
+    color: #0070e0;
+    margin-left: 0px;
+    margin-top: 15px;
+    border-style: inherit;
+    border-color: #7b8994;
+    border-radius: 1px;
+    border-width: 1px;
+    font-family: AtlasGrotesk,sans-serif;
+    vertical-align: super;
+    font-weight: bold;
+
+}
+
+.rightBlock{
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.rightDivTop{
+    margin-top: 15px;
+}
+
+.rightDivLeft{
+    margin-left: 15px;
+}
+
+.ion-person{
+    padding: 5px 20px;
+    text-align: right;
+}
+.ion-ios-person{
+    color: #0070e0;
+    font-size: 25px;
+    margin-right: 15px;
+}
+.sidemenu{
+height:100%;
+    min-height: 100vh;
+}
+
+.downloadlink{
+    background-color: white!important;
+    overflow: visible;
+
+}
+
+.userprofile{
+
+
+
+}
+.createdby{
+    text-align: center;
+    margin-top: 5px;
+
+}
+.groups{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    background: #0070e0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    cursor: inherit;
+    display: block;
+}
+
+.input-share-with{
+    width:70%;
+    margin-right: 20px;
+}

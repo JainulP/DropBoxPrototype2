@@ -1,0 +1,183 @@
+
+body{
+    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+    font-size: 13px;
+    color: #3d464d;
+    font-weight: normal;
+}
+.page-full-footer {
+    clear: both;
+    padding: 0 0 120px 0;
+}
+.outer-frame {
+    width: 990px;
+    margin: 0 auto;
+}
+.page-content {
+    padding-bottom: 28px;
+    min-height: 425px;
+}
+.main-skip-destination {
+    top: 0;
+}
+.login-or-register-page-content {
+    width:990px;
+    padding-top: 126px;
+    text-align: center;
+}
+.clearfix {
+    display: block;
+}
+.login-or-register-outer{
+    margin: 0 auto;
+}
+.login-or-register-img {
+    width: 288.5px; height: 305px;
+    display: inline-block;
+    margin-right: 90px;
+    margin-top: 80px;
+    margin-bottom: 110px;
+}
+.login-register-container {
+    display: inline-block;
+    vertical-align: middle;
+    width: 350px;
+    text-align: center;
+}
+.login-register-container .login-register-header {
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+}
+.login-register-container .login-register-switch {
+    float: right;
+    margin-top: 20px;
+    line-height: normal;
+}
+a {
+    color: #2895F1;
+    text-decoration: none;
+}
+.login-register-container .login-form-container {
+    width: 100%;
+}
+.login-form-container__google-div {
+    text-align: left;
+}
+.login-form-container__google-div .auth-google.button-primary, .login-form-container__google-div .auth-google.button-primary:hover, .login-form__google-sign-in .auth-google.button-primary, .login-form__google-sign-in .auth-google.button-primary:hover, .register-form .auth-google.button-primary, .register-form .auth-google.button-primary:hover, .notes-promo-actionable-area .auth-google.button-primary, .notes-promo-actionable-area .auth-google.button-primary:hover
+{
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    background-image: url(https://cfl.dropboxstatic.com/static/images/index/google-logo-white-vfltwSoWq.svg);
+    background-color: #4285f4;
+}
+.login-form-container__google-div .auth-google.button-primary, .login-form__google-sign-in .auth-google.button-primary, .register-form .auth-google.button-primary, .notes-promo-actionable-area .auth-google.button-primary {
+    position: relative;
+    padding: 8px 0;
+    margin-bottom: 5px;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.sign-in-text
+{
+    color: #ffffff;
+    text-align: center;
+}
+.hr-label {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+}
+.login-form-width
+{width: 100%;}
+
+.dummy-height
+{min-height: 17px;}
+
+.text-input-wrapper {
+    position: relative;
+}
+.text-input-input
+{
+    border: 1px solid #bdc4c9;
+    font-size: 16px;
+    padding: 5px 6px;
+    width: 100%;
+    margin: 2px 0 5px;
+    min-height: 34px;
+    line-height: normal;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3px;
+    -webkit-appearance: none;
+}
+.input-field-form
+{
+    color: #aaa;
+    cursor: text;
+    font-size: 16px;
+    text-align: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    padding: 8px;
+    left: 0;
+    right: 0;
+    top: 0;
+    right: 0;
+    -webkit-transition: color .2s linear 0s;
+    transition: color .2s linear 0s;
+    pointer-events: none;
+}
+.login-button {
+    float: right;
+    margin: 16px 0 5px 0;
+}
+.login-form-container .login-button .sso-text {
+    display: none;
+}
+.button-primary, a.button-primary {
+    background-color: #007ee5;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#168add), to(#007ee5));
+    background-image: linear-gradient(#168add, #007ee5);
+    border: 1px solid #0c6ebe;
+    color: white;
+}
+.button-primary, .button-secondary, .button-tertiary {
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    overflow: visible;
+    text-decoration: none;
+}
+.button-primary, .button-secondary, .button-tertiary {
+    margin: 2px 0 5px;
+    min-height: 34px;
+    line-height: normal;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    margin-top: 16px;
+    padding: 6px 16px;
+}
+.button-tertiary {
+    margin: 2px 0 5px;
+    min-height: 34px;
+    line-height: normal;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    margin-top: 16px;
+    padding: 6px 16px;
+}
